@@ -19,9 +19,7 @@ Lastly you will also be presented with the shortest flight path and the cost of 
 
 upload of flight paths - by completing this it will allow for a wider variety of different flight paths, I looked at using a reduce function however upon research in python 3.9 it is advised to use a loop instead (for readability purposes) So I haven't quite had chance to implement this yet.
 
-calculation of the return trip - current attempts to do this have been faced with an error in the dijkstra function, from what I can tell the nodes are not resetting once the first route has been planned, so when the return journey tries to run it is told that the node is not acceptable and fails. 
-
-So I am currently looking at ways to rest the nodes once the first path has been planned.
+calculation of the return trip - current attempts to do this have been faced with an error in the dijkstra function, from what I can tell the nodes are not resetting once the first route has been planned, so when the return journey tries to run it is told that the node is not acceptable and fails. So I am currently looking at ways to rest the nodes once the first path has been planned.
 
 Totals - Once the total cost of the vehicle has been returned as well as the outbound and inbound flight costs I want to add a total cost over all, this should be relatively simple and just a case of accessing the variable storing this information and adding them.
 
