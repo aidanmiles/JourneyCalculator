@@ -1,0 +1,56 @@
+## Classes and objects
+
+- [x]  Journey to the airport
+    - [x]  passengers
+    - [x]  miles
+    - [x]  need to split airport and miles e.g A10
+
+- [ ]  totals objective
+    - [ ]  departure cost
+    - [ ]  return cost
+    - [ ]  vehicle cost
+- [ ]  return flight object
+    - [ ]  passengers
+    - [ ]  departure airport
+    - [ ]  destination airport
+    - [ ]  miles
+
+- [x]  departure flight object
+    - [x]  passengers
+    - [x]  Departure airport
+    - [x]  destination airport
+    - [x]  miles
+
+---
+
+### **Priority of tasks**
+
+1. Read Python documentation
+2. note down classes and objects that I want to use and build from
+3. diagram out the flight paths to help find the correct algorithm
+4. find a way to import the flight numbers and match them to the hard coded graph in place
+5. find a way to match the number of cars to people when they are more than a multiple of 4 ? loop?
+6. once I have the number of people I can start to calculate fuel costs and add on parking charges for cars.
+7. Then do the same but for airplane fuel
+8. look at conducting a new route to plan back (may not be the same as way there) so fuel costs could be higher but shouldn't be an issue if maths is correct
+9. begin linking functions together so that after the user has input passengers/airport-fuel/departure the programme can run through and output to console the final result
+
+### **Areas that I would change ?**
+
+I did install PIP to perform the dijkstra algorithm, however I couldn't quite get this working as reliably as the code I had already written so on this occasion chose to not use it.
+
+Use of classes, objects and return statements could be improved, as I went on things started to get too dependant on one another.
+
+Error handling - was introduced but removed as it wasn't as necessary as finishing other parts.
+
+I would have liked to have written the output to a file in the same format as presented in the example but didn't have enough time.
+
+I don't feel as though importing dijkstra, graph from departure in to another class (JourneyToAirport) is best practice and could maybe be called from the main class instead.
+
+The formatting in the console could have been better and would have helped down the line if it came to writing a new file with the data in it.
+
+An issue I ran in to towards the end of the project was conducting a new route in dijkstra, it would throw an error for the starting node, from the looks of it it was still set as a node from its last run. So I would find a way to reset the nodes to ensure it could be re run multiple times.
+
+I am going to spend more time looking in to lambda functions as these could increase the readability of my code.
+
+Definitely want to improve my knowledge of libraries
